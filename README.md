@@ -9,7 +9,7 @@ Install jest related packages:
 ```
 
 ## Update configuration
-Create file ./src/setupJest.ts
+Create file ./setupJest.ts
 ```typescript
 	import 'jest-preset-angular';
 ```
@@ -34,7 +34,7 @@ Add Jest configuration to package.json file:
 
 Note: alternatively, we can create a JavaScript file to configure Jest.
 
-Adjust your testtsconfig.spec.json:
+Adjust your tsconfig.spec.json:
 ```json
 	{
 		...,
@@ -85,7 +85,7 @@ Remove karma related packages:
 
 Remove jasmine
 ```console
-	npm uninstall jasmine @types/jasmine @types/jasminewd2 jasmine-core jasmine-spec-reporter
+	npm remove jasmine @types/jasmine @types/jasminewd2 jasmine-core jasmine-spec-reporter
 ```
 
 Remove karma configuration files:
