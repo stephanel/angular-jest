@@ -1,4 +1,4 @@
-# How to use Jest with Angular
+# How to use Jest with Angular 6+
 
 This is just an example about how to configure Angular project to replace Jasmine/Karma by Jest.
 
