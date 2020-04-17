@@ -83,7 +83,7 @@ Remove karma related packages:
 	npm remove karma karma-chrome-launcher karma-coverage-istanbul-reporter karma-jasmine karma-jasmine-html-reporter
 ```
 
-Remove jasmine
+Remove jasmine (only if you do not use protractor)
 ```console
 	npm remove jasmine @types/jasmine @types/jasminewd2 jasmine-core jasmine-spec-reporter
 ```
